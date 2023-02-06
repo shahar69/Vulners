@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "flaskproject1"
+version = "0.1.0"
+description = ""
+authors = ["BuildTools <unconfigured@null.spigotmc.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
